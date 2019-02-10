@@ -1,6 +1,6 @@
 {
 	"name": "flash-messages-ak",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Flash/Alert Message package which display custom text message, with ability to specify how it will be displayed",
 	"main": "dist/flash-messages-ak.umd.js",
 	"module": "dist/flash-messages-ak.esm.js",
