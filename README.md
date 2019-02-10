@@ -34,33 +34,33 @@ flashMsg("My Message", 1000 , "success" , "top" , "left")
 
 The flashMsg function accept five arguments as follow: 
 
--  message 
+-  **message** 
+   - type: `String`
+   - default: `none`
+   - description: here where you can specify the text content of the flash message
+
+- **timeout**
+  - type: `Number`
+  - default: `2000`
+  - description: through this argument you can specify how long this flash message will be displayed on the screen
+
+
+ - **level**
+   - type: `String`
+   - default: `successs`
+   - options: `success or danger`
+   - description: this argument give you the ability to specify the background color of the flash message `success` light green `danger` light red.
+
+- **position**
   - type: `String`
-  - default: `none`
-  - description: here where you can specify the text content of the flash message
-
-- timeout
- - type: `Number`
- - default: `2000`
- - description: through this argument you can specify how long this flash message will be displayed on the screen
-
-
- - level
-  - type: `String`
-  - default: `successs`
-  - options: `success or danger`
-  - description: this argument give you the ability to specify the background color of the flash message `success` light green `danger` light red.
-
-- position
- - type: `String`
- - default: `bottom`
- - options: `bottom , top`
- - description: you can specify the position of the flash message either bottom or top of the screen
+  - default: `bottom`
+  - options: `bottom , top`
+  - description: you can specify the position of the flash message either bottom or top of the screen
  
 
-- alignment
- - type: `String`
- - default: `right`
- - options: `right , left`
- - description: you can specify the alignment of this flash message either left or right of the screen
+- **alignment**
+  - type: `String`
+  - default: `right`
+  - options: `right , left`
+  - description: you can specify the alignment of this flash message either left or right of the screen
 
