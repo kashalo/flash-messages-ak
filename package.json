@@ -1,0 +1,29 @@
+{
+	"name": "flash-messages-ak",
+	"version": "1.0.0",
+	"description": "Flash/Alert Message package which display custom text message, with ability to specify how it will be displayed",
+	"main": "dist/flash-messages-ak.umd.js",
+	"module": "dist/flash-messages-ak.esm.js",
+	"unpkg": "dist/flash-messages-ak.min.js",
+	"scripts": {
+		"build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+		"build:umd": "rollup --config rollup.config.js --format umd --file dist/flash-messages-ak.umd.js",
+		"build:es": "rollup --config rollup.config.js --format es --file dist/flash-messages-ak.esm.js",
+		"build:unpkg": "rollup --config rollup.config.js --format iife --file dist/flash-messages-ak.min.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git"
+	},
+	"keywords": [
+		"flash-messages",
+		"flash-message-vanilla-javascript"
+	],
+	"author": "Anas Kashalo",
+	"license": "ISC",
+	"devDependencies": {
+		"rollup-plugin-buble": "^0.19.6",
+		"rollup-plugin-commonjs": "^9.2.0",
+		"rollup-plugin-uglify-es": "0.0.1"
+	}
+}
