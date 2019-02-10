@@ -16,7 +16,7 @@ require('flash-messages-ak')
 Or you can added directly from unpack cdn as follow: 
 
 ```javascript
-<script src="" > <script>
+<script src="https://unpkg.com/flash-messages-ak"></script>
 
 ```
 
