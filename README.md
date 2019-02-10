@@ -64,3 +64,11 @@ The flashMsg function accept five arguments as follow:
   - options: `right , left`
   - description: you can specify the alignment of this flash message either left or right of the screen
 
+
+**Scren Shots**
+
+![Screen Shot 1](https://github.com/kashalo/flash-messages-ak/blob/master/src/screenshots/ScreenShot-1.png)
+
+
+
+![Screen Shot 1](https://github.com/kashalo/flash-messages-ak/blob/master/src/screenshots/ScreenShot-2.png)
